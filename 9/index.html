@@ -3,7 +3,7 @@
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=7">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title></title>
+   <title>Medicare</title>
    <link rel="stylesheet" href="./styles/bootstrap.min.css">
    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
    <link rel="stylesheet" href="css/animate.css">
@@ -47,7 +47,7 @@
         <span class="subheading">Добро пожаловать на Medicare</span>
         <h1 class="mb-4">Мы тут <br>Для вашего здоровья</h1>
         <p class="mb-4">Далеко-далеко, за словесными горами, вдали от стран Вокалия и Констоантия живут слепые тексты. Врозь они живут в Bookmarksgrove.</p>
-        <p><a href="#" class="btn btn-primary py-3 px-4">Записаться на прием</a></p>
+        <p><a href="#service1" class="btn btn-primary py-3 px-4">Записаться на прием</a></p>
         </div>
         </div>
         </div>
@@ -60,7 +60,7 @@
 
 
 
-      <section class="ftco-section ftco-no-pt ftco-no-pb ftco-services-2 bg-light">
+      <section class="ftco-section ftco-no-pt ftco-no-pb ftco-services-2 bg-light" id="service1">
         <div class="container">
           <div class="row d-flex">
             <div class="col-md-7 py-5">
@@ -103,7 +103,7 @@
                       <div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-24-hours"></span></div>
                       <div class="media-body pl-md-4">
                         <h3 class="heading mb-3">24 часов обслуживания</h3>
-                        <p>Можем обслуживать так ранним днём так и в полночь.</p>
+                        <p>Можем обслуживать ранним днём так и в полночь.</p>
                       </div>
                     </div>      
                   </div>
@@ -116,10 +116,10 @@
                   <h3>Бесплатная консультация</h3>
                   <div class="">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Имя">
+                      <input type="text" class="form-control" placeholder="Имя" required>
                     </div>
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Фамилия">
+                      <input type="text" class="form-control" placeholder="Фамилия" required>
                     </div>
                   </div>
                   <div class="">
@@ -127,11 +127,10 @@
                       <div class="form-field">
                         <div class="select-wrap">
                           <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                          <select name="" id="" class="form-control">
+                          <select name="" id="" class="form-control" required>
                             <option value="">Выберите отдел</option>
                             <option value="">Невропатолог</option>
                             <option value="">Кардиология</option>
-                            <option value="">Офтальмология</option>
                             <option value="">Стоматология</option>
                             <option value="">Хирургический</option>
                             <option value="">Другие отделы</option>
@@ -140,20 +139,20 @@
                       </div>
                     </div>
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Ваш номер телефона">
+                      <input type="text" class="form-control" placeholder="Ваш номер телефона" required>
                     </div>
                   </div>
                   <div class="">
                     <div class="form-group">
                       <div class="input-wrap">
                         <div class="icon"><span class="ion-md-calendar"></span></div>
-                        <input type="text" class="form-control appointment_date" placeholder="Дата">
+                        <input type="text" class="form-control appointment_date" placeholder="Дата" required>
                       </div>
                     </div>
                     <div class="form-group">
                       <div class="input-wrap">
                         <div class="icon"><span class="ion-ios-clock"></span></div>
-                        <input type="text" class="form-control appointment_time" placeholder="Время">
+                        <input type="text" class="form-control appointment_time" placeholder="Время" required>
                       </div>
                     </div>
                   </div>
@@ -175,9 +174,6 @@
 
 
 
-
-
-
       <div class="container">
       <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
         <div class="col mb-3">
@@ -195,7 +191,6 @@
           <h5>Отделы</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Невропатолог</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Офтальмология</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Кардиология</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Стоматология</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Хирургический</a></li>
@@ -208,9 +203,8 @@
             <li class="nav-item mb-2"><a href="#top" class="nav-link p-0 text-muted">На главную</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Отделы</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Врачи</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Цены</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Связаться с нами</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">О нас</a></li>
+            <li class="nav-item mb-2"><a href="./sites/1.html" class="nav-link p-0 text-muted">О нас</a></li>
           </ul>
         </div>
     
